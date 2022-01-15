@@ -29,6 +29,9 @@
     opacity: 50%;
     cursor: pointer;
 }
+#btn-mobile{
+    display: none;
+}
 .btn{
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -331,4 +334,8 @@
     color: white;
     cursor: pointer;
     transition: 0.5s;
+}
+@media screen and (max-width:420px){
+  
+  
 }
